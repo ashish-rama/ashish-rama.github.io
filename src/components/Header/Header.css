@@ -1,0 +1,24 @@
+.header {
+    padding: 3rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.header__banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav {
+    margin: 0 0 10px;
+    display: flex;
+}
+
+.header__navItem {
+    margin-right: 40px;
+}
+
+.header__nameSub {
+    color: #02CF5D;
+}

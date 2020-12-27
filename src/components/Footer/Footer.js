@@ -1,10 +1,17 @@
 import React from 'react';
 import './Footer.css';
+import * as Icon from '@geist-ui/react-icons'
+import { useTheme } from '@geist-ui/react';
 
 function Footer() {
+
+    const { palette } = useTheme();
+
     return (
         <div className="footer">
-            
+            <div className="footer__title">
+                <h5>Let's Connect!</h5>
+            </div>
         </div>
     )
 }
