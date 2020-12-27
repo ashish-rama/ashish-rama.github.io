@@ -1,5 +1,5 @@
 .header {
-    padding: 3rem;
+    padding-top: 4rem;
     padding-left: 6rem;
     padding-right: 6rem;
 }
@@ -15,10 +15,41 @@
     display: flex;
 }
 
+.header__nav--dark {
+    margin: 0 0 10px;
+    display: flex;
+}
+
+.header__nav div a {
+    transition: color 0.2s;
+}
+
+.header__nav--dark div a {
+    transition: color 0.2s;
+}
+
+.header__nav div a:hover {
+    color: black !important;
+}
+
+.header__nav--dark div a:hover {
+    color: white !important;
+}
+
 .header__navItem {
+    font-size: 22px;
     margin-right: 40px;
+}
+
+.header__lastNavItem {
+    font-size: 22px;
 }
 
 .header__nameSub {
     color: #02CF5D;
+}
+
+.header__darkModeSwitch {
+    display: flex;
+    align-items: center;
 }
