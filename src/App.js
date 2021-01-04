@@ -34,7 +34,7 @@ function App() {
             <Redirect to="/home" />
           </Switch>
 
-          <Footer />
+          <Footer theme={themeType}/>
         </Router>
       </div>
     </GeistProvider>
