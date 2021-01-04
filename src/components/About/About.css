@@ -4,3 +4,15 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.about__profilePicture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.about__profilePicture > img {
+  object-fit: fill;
+  height: 350px;
+}
