@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.38fc0aec.chunk.css",
+    "main.js": "/static/js/main.9158bbaf.chunk.js",
+    "main.js.map": "/static/js/main.9158bbaf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a0591f6e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a0591f6e.js.map",
+    "static/js/2.5e5e6527.chunk.js": "/static/js/2.5e5e6527.chunk.js",
+    "static/js/2.5e5e6527.chunk.js.map": "/static/js/2.5e5e6527.chunk.js.map",
+    "static/js/3.6c898cac.chunk.js": "/static/js/3.6c898cac.chunk.js",
+    "static/js/3.6c898cac.chunk.js.map": "/static/js/3.6c898cac.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.38fc0aec.chunk.css.map": "/static/css/main.38fc0aec.chunk.css.map",
+    "static/js/2.5e5e6527.chunk.js.LICENSE.txt": "/static/js/2.5e5e6527.chunk.js.LICENSE.txt",
+    "static/media/Airbnb-Clone.e52e21fb.png": "/static/media/Airbnb-Clone.e52e21fb.png",
+    "static/media/Amazon-Clone.943723b2.png": "/static/media/Amazon-Clone.943723b2.png",
+    "static/media/Ashish.c0108f7f.jpg": "/static/media/Ashish.c0108f7f.jpg",
+    "static/media/COVID-19-Tracker.2468f63b.png": "/static/media/COVID-19-Tracker.2468f63b.png",
+    "static/media/Movie-Database.57a7caff.png": "/static/media/Movie-Database.57a7caff.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0591f6e.js",
+    "static/js/2.5e5e6527.chunk.js",
+    "static/css/main.38fc0aec.chunk.css",
+    "static/js/main.9158bbaf.chunk.js"
+  ]
+}
