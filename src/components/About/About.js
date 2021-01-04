@@ -32,7 +32,7 @@ function About() {
                 Through this experience, I have gained expertise in management (projects, teams, resources), competitive business strategies (capital raises, M&A, corporate ownership) and technology product analysis.
             </Text>
             <br/>
-            <h3>What's Next...</h3>
+            <h3>What's Next?</h3>
             <Text p>
                 For my next position, I am looking to work more closely with technology products at a collaborative and fast-paced startup. Feel free to contact me – I love to speak about my previous projects and future work opportunities!
             </Text>
