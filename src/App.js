@@ -11,21 +11,26 @@ function App() {
   const[themeType, setThemeType] = useState('light');
 
   const myTheme = {
-    "palette": {
-      "selection": "#accef7"
+    type: `${themeType}`,
+    palette: {
+      selection: "#accef7",
     },
   }
 
   return (
-    <GeistProvider theme={{type: themeType}}>
+    <GeistProvider theme={myTheme}>
       <CssBaseline />
       <div className="app">
         <Router>
-          <Header theme={themeType} setTheme={setThemeType}/>
-
           <Switch>
-            <Route path="/home" component={() => <Home />}/>
-            <Route path="/about" component={() => <About />}/>
+            <Route path="/home">
+              <Header theme={themeType} setTheme={setThemeType}/>
+              <Home theme={themeType}/>
+            </Route>
+            <Route path="/about">
+              <Header theme={themeType} setTheme={setThemeType}/>
+              <About />
+            </Route>
             <Redirect to="/home" />
           </Switch>
 
